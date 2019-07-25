@@ -1,0 +1,23 @@
+halo teman2 kembali lagi bersama channer datib data science
+pada pertemuan kali ini saya akan berbagi tutorial mendapatkan outlayer dari suatu data
+
+oke pertama kita harus melakukan data preprocessing terlebih dahulu,
+berikut adalah data yang akan kita cari outliernya (menampilkan file csv)
+dapat disaksikan bahwa pemisah antara satu nilai dengan nilai yang lainnya adalah tab, sehingga kita harus bisa menyesuaikannya nanti
+
+oke langsung saja kita menuju code
+hal pertama yang harus kita lakukan adalah mengimport beberapa library, seperti pandas untuk melakukan modifikasi pada dataframe, numpy untuk melakukan beberapa rumus matematika, dan random untuk melakukan generate nilai secara otomatis dengan range tertentu
+
+kemudian kita baca file csv yang akan kita cari data outliernya, pada percobaan kali ini kita membaca file bernama RisetOperasi.csv, kemudian menambahkan delimiter tab agar sesuai dengan karakteristik data yang akan kita olah sehingga akan menampilkan dataframe seperti berikut (menunjukkan dataframe)
+
+kemudian kita lakukan pemberian angka dari setiap nilai secara random dengan range tertentu, seperti 
+nilai A dengan range 81 s.d. 100, 
+nilai AB dengan range 71 s.d. 80, 
+nilai B dengan range 66 s.d. 70, 
+nilai BC dengan range 61 s.d. 65,
+nilai C dengan range 56 s.d. 60,
+nilai D dengan range 41 s.d. 55,
+nilai E dengan range 0 s.d. 40
+dan selain nilai tersebut dengan range 60 s.d. 100
+hasil random angka tersebut akan kita simpan pada variabel angka berupa array kemudian kita gabungkan dengan dataframe sebelumnya sehingga menampilkan hasil seperti berikut (menampilkan yang memiliki angka)
+
